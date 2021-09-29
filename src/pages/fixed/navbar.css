@@ -1,3 +1,15 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
 body{
     background-color: aqua;
+}
+
+.overall{
+    display: hidden;
+    z-index: 2;
+    background-color: greenyellow;
+    visibility: visible;
+    position: absolute;
 }
