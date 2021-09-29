@@ -1,7 +1,7 @@
 import React from "react";
 import "./navbar.css";
 
-function Navbar(){
+function Nav(){
     return(
     <>
     <section>
@@ -30,4 +30,4 @@ function Navbar(){
         )
 }
 
-export default Navbar;
+export default Nav;
