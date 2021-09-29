@@ -14,6 +14,7 @@ function Navbar(){
         </div>
         <div class="dropdown">
         <ul>
+        <li>Home</li>
         <li>RideHistory</li>
         <li>Support</li>
         <li>About</li>

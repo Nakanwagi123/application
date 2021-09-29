@@ -12,4 +12,6 @@ body{
     background-color: greenyellow;
     visibility: visible;
     position: absolute;
+    border:2px solid white;
+    border-radius: 5%;
 }
