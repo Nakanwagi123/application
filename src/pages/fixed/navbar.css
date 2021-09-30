@@ -2,7 +2,7 @@
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
 }
-:root{--background:rgba(131,3,1,0.8)}
+:root{--background:rgba(131,3,1,1)}
 
 body{
     margin:0;

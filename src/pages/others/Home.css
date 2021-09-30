@@ -1,13 +1,46 @@
-
-body{ 
-    background-color: white;
-    color:black;
-    
-
-   
+*,*::before,*::after{
+    box-sizing: border-box;
 }
-.contain{margin-top: 20%;
-    
-    
+body{ 
+    margin:0;
+     
+}
+.order{
+    margin-top:5rem;
+    background-color: white;
+    color:black; 
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding:0.5rem 0;
 
+}
+.split{
+    padding:0px 0px;
+    margin:0;
+    border: 1px solid black;
+
+}
+.offers ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding:0px 0px;
+    padding-right: 0.5em;
+}
+.offers ul>*{
+    border:1px solid black;
+}
+.placeorder{
+    text-align: center;
+    background-color: black;
+    top:0;
+    position: relative;
+}
+button{
+    border-radius: 10%;
+}
+.slider{
+    height: 10vh;
+    background-color: rgb(20, 27, 92);
 }
