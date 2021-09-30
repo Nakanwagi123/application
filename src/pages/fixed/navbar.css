@@ -90,4 +90,50 @@ position: relative;
     opacity:1;
     transition:opacity 250ms ease-in-out 250ms;
 }
-
+@media screen and (min-width:800px){
+    .nav-toggle-label{
+        display:none;
+    }
+    header{
+      
+        border: 2px solid white;
+        display:grid;
+        grid-auto-flow: column;
+       /* grid-template-columns: 1fr auto minmax(600px,4fr) 1fr;*/
+    }
+    .logo{
+        border: 2px solid white;
+    }
+    nav{
+        border: 2px solid greenyellow;
+        all:unset;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    nav a{opacity: 1;}
+    nav ul{
+        display: flex;
+        justify-content: flex-end;
+    }
+    nav li{
+        margin-left:2em;
+        margin-bottom: 0;
+        top:1em;
+    }
+    nav a::before{content:'';
+    display: block;
+    height:5px;
+    background: black;
+    left:0;
+    right:0;
+    top:-.75em;
+    transform:scale(0,1);
+    transform-origin: center;
+    transition: transform ease-in-out 250ms;
+}
+nav a:hover::before{
+    transform: scale(1,1);
+}
+ .rest{margin-right: 2em;}   
+}
