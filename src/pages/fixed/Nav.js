@@ -6,30 +6,23 @@ function Nav(){
     
     return(
     <>
-    <section>
-        <div class="container">
-        <div class="split">
-        <div class="button"><button class="menu"><i class="fas fa-bars"></i></button></div>
-
-        <div class="overall">
-        <div class="profile">
-        Profile
-        </div>
-        <div class="dropdown">
-        <ul class="options">
-        <li>Home</li>
-        <li>RideHistory</li>
-        <li>Support</li>
-        <li>About</li>
-        </ul>
-        </div>
-        <div class="rest">Signup to drive</div>
-        </div>
-        </div> 
-        </div>
-    </section>
-        </>
-        )
+    <header>
+        <h1 class="logo">Logo</h1>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle"/>
+        <nav>
+        <div class="profile"><h2>Profile</h2></div>
+            <ul>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">RideHistory</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+            <div class="rest">Signup to drive</div>
+        </nav>
+        <label for="nav-toggle" class="nav-toggle-label"><span></span></label>
+    </header>
+    </>
+        );
 }
 
 export default Nav;

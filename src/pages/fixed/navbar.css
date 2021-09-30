@@ -2,33 +2,92 @@
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
 }
-section{
-    padding:0rem 0;
-}
-.container{
-    background-color: greenyellow;
-}
-button{
-    background-color: greenyellow;
-}
-.options{
-    list-style-type:none;
-}
-.overall{
-    display: flex;
-    flex-direction: column;
-    z-index: 2;
-    background-color: greenyellow;
-    visibility: visible;
-    position: absolute;
-    border:2px solid white;
-    border-radius: 5%;
-    width: 50%;
-    font-size: 1.2rem;
-    animation: visibility 5s;
+:root{--background:rgba(131,3,1,0.8)}
 
-    
+body{
+    margin:0;
 }
-.menu:hover{
-    visibility: visible;
+header{
+    background:var(--background);
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    z-index:999;
 }
+/*NAV animation*/
+nav{
+    position:absolute;
+    width:100%;
+    top:100%;
+    background:var(--background);
+    left:0;
+    transform: scale(0,1);
+    transform-origin: left;
+    transition: transform 400ms ease-in-out;
+}
+
+.profile,.rest{
+text-align: left;
+margin-left: 1em;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li{
+    margin-bottom: 1em;
+    margin-left: 1em;
+    text-align: left;
+}
+nav a{
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    opacity:0;
+    transition:opacity 250ms ease-in-out;
+}
+nav a:hover{
+    color:#000;
+}
+.nav-toggle{
+    display:none;
+}
+.nav-toggle:checked~nav{
+    display: block;
+    transform: scale(1,1);
+}
+
+/*Menu ICON*/
+.nav-toggle-label{
+position: absolute;
+margin-left: 1em;
+top:0;
+left:0;
+height: 100%;
+display:flex;
+align-items: center;
+}
+
+.nav-toggle-label span,.nav-toggle-label span::before,.nav-toggle-label span::after{
+display: block;
+background-color: whitesmoke;
+height: 2px;
+width:2em;
+position: relative;
+
+}
+.nav-toggle-label span::before,.nav-toggle-label span::after{
+    content:'';
+    position: absolute;
+}
+.nav-toggle-label span::before{ bottom:7px;}
+.nav-toggle-label span::after{top:7px;}
+
+.nav-toggle:checked~nav a{
+    opacity:1;
+    transition:opacity 250ms ease-in-out 250ms;
+}
+
