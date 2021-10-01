@@ -74,6 +74,7 @@ button{
 }
 section{
     padding:3rem 0;
+    margin-bottom: 3rem;
 }
 .containerone{
     margin-inline:auto;
@@ -206,6 +207,38 @@ left: 0;
 
 .alt{
     text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 1.2rem;
     
 }
+@media screen and (min-width:800px){
+.slider{
+    height:55vh;
+}
+.testing{
+    display: flex;
+    flex-direction: row;
+  
 
+}
+.testing>*{
+    flex:1;
+}
+.containerone{
+ 
+    margin-bottom: 4rem;
+}
+.title{
+font-size: 2rem;
+font-weight: bold;
+text-align: center;
+}
+.title > * {
+  padding-left: 3rem;
+}
+
+hr{
+    width:25rem;
+}
+}

@@ -107,7 +107,7 @@ position: relative;
        /* grid-template-columns: 1fr auto minmax(600px,4fr) 1fr;*/
     }
     .logo{
-        border: 2px solid white;
+    
     }
     nav{
         border: 2px solid greenyellow;
