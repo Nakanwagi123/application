@@ -12,15 +12,17 @@ function Foot(){
             </div>
             <div class="footertwo">
             <h3>OUR SERVICES</h3>
-            <ul>
+            <input type="checkbox" class="services-checkbox" />
+            <ul class="services">
                 <li>Delivery</li>
                 <li>Ride</li>
                 <li>Food</li>
             </ul>
             </div>
-             <div class="footerthree">
+            <div class="footerthree">
             <h3>OUR LOCATIONS</h3>
-            <ul>
+            <input type="checkbox" class="location-checkbox" />
+            <ul class="location">
                 <li>Kampala</li>
                 <li>Wakiso</li>
                 <li>Lugogo</li>

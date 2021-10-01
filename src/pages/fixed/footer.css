@@ -2,7 +2,7 @@
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
 }
-:root{--backgroundcolor:#888}
+:root{--backgroundcolor:black}
 
 body{
     margin:0;
@@ -45,6 +45,20 @@ li{
 li>*{
     margin-right: 0.5em;
 }
+.services{
+    display: none;
+}
+.services-checkbox:checked~.services{
+    display:block;
+}
+.location {
+  display: none;
+}
+.location-checkbox:checked~.location {
+  display: block;
+}
+
+
 @media screen and (min-width:800px){
     footer{
         bottom:0;
