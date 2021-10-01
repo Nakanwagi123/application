@@ -1,6 +1,7 @@
 import React from "react";
 import './Home.css';
 
+
 function Home(){
     return(
     <>
@@ -18,7 +19,16 @@ function Home(){
            <div class="split">
                <div class="title">
                    <p>BROWSE CATEGORIES</p><p><hr/></p>
-                   </div>
+                </div>
+                <div class="categories">
+                <ul>
+                <li class="card"><div class="figure"></div><div class="alt">Trending</div></li>
+                <li class="card"><div class="figure"></div><div class="alt">Top Offers</div></li>
+                <li class="card"><div class="figure"></div><div class="alt">Recent</div></li>
+                <li class="card"><div class="figure"></div><div class="alt">History</div></li>    
+                </ul>
+
+                </div>
            </div>
        </div>
    </section>
