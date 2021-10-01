@@ -21,12 +21,17 @@ function Home(){
                    <p>BROWSE CATEGORIES</p><p><hr/></p>
                 </div>
                 <div class="categories">
-                <ul>
-                <li class="card"><div class="figure"></div><div class="alt">Trending</div></li>
-                <li class="card"><div class="figure"></div><div class="alt">Top Offers</div></li>
-                <li class="card"><div class="figure"></div><div class="alt">Recent</div></li>
-                <li class="card"><div class="figure"></div><div class="alt">History</div></li>    
-                </ul>
+                <div class="testing">
+                <div class="groupone">
+                <div class="card"><div class="figure"></div><div class="alt">Trending</div></div>
+                <div class="cardone"><div class="figure"></div><div class="alt">Top Offers</div></div>
+                </div>
+               <div class="grouptwo">
+                <div class="cardtwo"><div class="figure"></div><div class="alt">Recent</div></div>
+                <div class="cardthree"><div class="figure"></div><div class="alt">History</div></div>
+               </div>
+                   
+                </div>
 
                 </div>
            </div>
