@@ -12,13 +12,16 @@ body{
     display: flex;
     flex-direction: column;
     border: 1px solid black;
-    padding:0.5rem 0;
+    padding:0rem 0;
 
 }
+.container{
+    margin-inline:auto;
+    width:100%;
+}
 .split{
-    padding:0px 0px;
-    margin:0;
-    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
 
 }
 .offers ul{
@@ -34,13 +37,55 @@ body{
 .placeorder{
     text-align: center;
     background-color: black;
-    top:0;
     position: relative;
+    padding: 0.3rem 0px;
+    color:#fff;
+    font-size: 1.4em;
+    text-transform: uppercase;
 }
+
 button{
-    border-radius: 10%;
+    border-radius: 5rem;
+    width: 15rem;
+    font-size: 1rem;
 }
 .slider{
-    height: 10vh;
-    background-color: rgb(20, 27, 92);
+    background-image: url("E:\VSC projects\mobile\application\src\images\ride3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30vh; /* You must set a specified height*/
+    width:100%;
+    object-fit: contain;
+    border:1px solid black;
+    color:#fff;
+    text-transform: uppercase;
+}
+.welcome{
+    background-image: linear-gradient(180deg,black,whitesmoke,whitesmoke);
+    padding: 1rem 0px;
+    border: 1px solid whitesmoke;
+    color:black;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.containerone{
+    margin-inline:auto;
+    width:min(90%,70.5rem);
+    border:1px solid black;
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    font-size: 1em;
+    text-align: center;
+    padding-top: 2rem;
+
+}
+hr{
+    width:8rem;
+    padding:0px 1rem;
+    
 }
