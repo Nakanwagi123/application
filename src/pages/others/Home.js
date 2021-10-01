@@ -20,19 +20,16 @@ function Home(){
                <div class="title">
                    <p>BROWSE CATEGORIES</p><p><hr/></p>
                 </div>
-                <div class="categories">
-                <div class="testing">
+                 <div class="testing">
                 <div class="groupone">
                 <div class="card"><div class="figure"></div><div class="alt">Trending</div></div>
-                <div class="cardone"><div class="figure"></div><div class="alt">Top Offers</div></div>
+                <div class="cardone"><div class="figureone"></div><div class="alt">Top Offers</div></div>
                 </div>
                <div class="grouptwo">
-                <div class="cardtwo"><div class="figure"></div><div class="alt">Recent</div></div>
-                <div class="cardthree"><div class="figure"></div><div class="alt">History</div></div>
+                <div class="cardtwo"><div class="figuretwo"></div><div class="alt">Recent</div></div>
+                <div class="cardthree"><div class="figurethree"></div><div class="alt">History</div></div>
                </div>
                    
-                </div>
-
                 </div>
            </div>
        </div>

@@ -1,6 +1,7 @@
 *,*::before,*::after{
     box-sizing: border-box;
 }
+:root{--paint:#fff}
 body{ 
     margin:0;
      
@@ -77,7 +78,7 @@ section{
 .containerone{
     margin-inline:auto;
     width:min(90%,70.5rem);
-    border:1px solid black;
+    
 }
 .title{
     display: flex;
@@ -100,8 +101,7 @@ hr{
 }
 .testing{
     list-style: none;
-    padding:0px 0px;
-    border: 1px solid orange;
+    padding:1rem 0px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -109,25 +109,42 @@ hr{
 .groupone{
     display:flex;
     flex-direction: row;
+    padding:0rem 0rem;
 }
-.groupone>*{
-    flex:1;
-}
+
 .card{
     border:1px solid black;
     flex:1;
-    background-color: grey;
+    background-color: var(--paint);
+    margin:0.5rem 0.5rem;
+    border-radius: 0.3rem;
 }
 .cardone{
     flex:1;
+    border: 1px solid black;
+    background-color: var(--paint);
+    margin: 0.5rem 0.5rem;
+    border-radius: 0.3rem;
 }
 .grouptwo{
     display:flex;
     flex-direction: row;
-    padding:2rem 1rem;
+    padding:0rem 0rem;
 }
-.cardtwo{flex:1;}
-.cardthree{flex:1;}
+.cardtwo{
+    flex:1;
+    border: 1px solid black;
+    background-color: var(--paint);
+    margin: 0.5rem 0.5rem;
+    border-radius: 0.3rem;
+}
+.cardthree{
+    flex:1;
+    border: 1px solid black;
+    background-color: var(--paint);
+    margin: 0.5rem 0.5rem;
+    border-radius: 0.3rem;
+}
 
 .figure{
 background-image: url("./appearanceview2.png");
@@ -143,8 +160,52 @@ bottom: 0;
 right: 0;
 left: 0;
 }
+.figureone{
+   background-image: url("./images/ride1.jpg");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 10rem; /* You must set a specified height*/
+max-width: 20rem;
+object-fit: contain;
+padding:0px 0px;
+top: 0;
+bottom: 0;
+right: 0;
+left: 0;
+} 
+.figuretwo {
+  background-image: url('./images/nightdrive.jfif');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 10rem; /* You must set a specified height*/
+  max-width: 20rem;
+  object-fit: contain;
+  padding: 0px 0px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.figurethree {
+  background-image: url('./images/drive.jfif');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 10rem; /* You must set a specified height*/
+  max-width: 20rem;
+  object-fit: contain;
+  padding: 0px 0px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
 
 .alt{
+    text-align: center;
     
 }
 
