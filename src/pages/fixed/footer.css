@@ -75,5 +75,16 @@ li>*{
 .footerfour {
   flex: 1;
 }
-
+.services-checkbox{
+    display: none;
+}
+.location-checkbox{
+    display: none;
+}
+.services{
+    display:block;
+}
+.location{
+    display: block;
+}
 }
