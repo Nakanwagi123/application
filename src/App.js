@@ -4,6 +4,7 @@ import './App.css';
 import Foot from './pages/fixed/Foot';
 import Nav from './pages/fixed/Nav';
 import Home from './pages/others/Home';
+import Order from './pages/others/Order';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       <Router>
         <Nav/>
         <Switch>
-        <Route path="/" exact component={Home}/>  
+        <Route path="/" exact component={Home}/>
+        <Route path="/order" component={Order}/>
         </Switch>
         <Foot/>
       </Router>

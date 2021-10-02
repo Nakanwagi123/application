@@ -1,1 +1,17 @@
-hello
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+}
+section{
+    margin-top:4rem;
+    padding: 3rem 0;
+}
+.container{
+    margin-inline:auto;
+}
+.split{
+    color:black;
+}
