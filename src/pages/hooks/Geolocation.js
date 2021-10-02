@@ -1,11 +1,12 @@
 import React,{Component} from 'react';
 import {Map, InfoWindow, Marker, GoogleApiWrapper} from 'google-maps-react';
+import "../others/Order.css";
 
 class Geolocation extends Component {
     render() {
         return(
-            <div><p>Google Maps</p>
-            <Map google={this.props.google} zoom={14}>
+            <div class="map"><h2>Current Location</h2>
+        <Map google={this.props.google} zoom={14}>
  
         <Marker onClick={this.onMarkerClick}
                 name={'Current location'} />
