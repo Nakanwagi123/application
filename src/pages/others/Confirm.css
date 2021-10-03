@@ -1,0 +1,7 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+.body{
+    margin-top: 15rem;
+    color:greenyellow
+}
